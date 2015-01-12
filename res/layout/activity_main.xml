@@ -1,0 +1,53 @@
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/host"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/host" />
+
+        <Button
+            android:id="@+id/graphics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showgraphics"
+            android:text="@string/graphics" />
+
+        <Button
+            android:id="@+id/screen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showscreen"
+            android:text="@string/screen" />
+
+        <Button
+            android:id="@+id/setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/setting" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/hostlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+
+    </LinearLayout>
+
+    </LinearLayout>
+

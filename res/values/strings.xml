@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">zabbent</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="todo">TODO</string>
+    <string name="button">Button</string>
+    <string name="Host">Host</string>
+    <string name="host">Host</string>
+    <string name="graphics">Graphics</string>
+    <string name="screen">Screen</string>
+    <string name="setting">Setting</string>
+    <string name="password_">password:</string>
+    <string name="url_">url:</string>
+    <string name="user_">user:</string>
+    <string name="cancle">cancle</string>
+    <string name="add">ADD</string>
+    <string name="back">Back</string>
+
+</resources>
